@@ -2,7 +2,7 @@
 require_once 'connection.php';
 class UsersConnection extends Connection
 {
-    public function exist(User $user):bool
+    public function exist(User $user):bool //check if a user already exists with his email
     {
         $req= "SELECT * FROM user WHERE email = :email";
         $statement = $this->pdo->prepare($req);
@@ -11,7 +11,7 @@ class UsersConnection extends Connection
         return $exist===0;
     }
 
-    public function getUserInfos($user):array
+    public function getUserInfos($user):array//returns a list of all the information of a user
     {
         $req= "SELECT * FROM user WHERE email = :email";
         $statement = $this->pdo->prepare($req);

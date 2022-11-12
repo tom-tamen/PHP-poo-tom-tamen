@@ -10,7 +10,7 @@ class User
     ){
     }
 
-    public function verify():bool
+    public function verify():bool//check if the fields are filled in correctly
     {
         $isValid = true;
 
