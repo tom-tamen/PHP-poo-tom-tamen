@@ -11,4 +11,4 @@ Note: I was coding quietly when all of a sudden the php `header()` broke for no 
 <hr>
 
 Here is a diagram of the project classes :<br>
-<img alt='diagram of the project classes' src="https://cdn.discordapp.com/attachments/709455110228410419/1040768762414104577/image.png">
+<img alt='diagram of the project classes' src="https://raw.githubusercontent.com/tom-tamen/PHP-poo-tom-tamen/main/diagram.png">
